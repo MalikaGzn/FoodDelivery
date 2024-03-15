@@ -25,6 +25,7 @@
 		17DD0E2C2BA30D7E00DB340C /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 17DD0E1F2BA30D7E00DB340C /* Roboto-Bold.ttf */; };
 		17DD0E2D2BA30D7E00DB340C /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 17DD0E202BA30D7E00DB340C /* Roboto-Thin.ttf */; };
 		17DD0E2E2BA30D7E00DB340C /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 17DD0E212BA30D7E00DB340C /* Roboto-Black.ttf */; };
+		17DD0E312BA30F9700DB340C /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DD0E302BA30F9700DB340C /* UIFont+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		17DD0E1F2BA30D7E00DB340C /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		17DD0E202BA30D7E00DB340C /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
 		17DD0E212BA30D7E00DB340C /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		17DD0E302BA30F9700DB340C /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		17DD0E122BA30D3200DB340C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				17DD0E2F2BA30F3900DB340C /* Extensions */,
 				17DD0E132BA30D3F00DB340C /* Fonts */,
 			);
 			path = Resources;
@@ -125,6 +128,14 @@
 				17DD0E212BA30D7E00DB340C /* Roboto-Black.ttf */,
 			);
 			path = Roboto;
+			sourceTree = "<group>";
+		};
+		17DD0E2F2BA30F3900DB340C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				17DD0E302BA30F9700DB340C /* UIFont+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +223,7 @@
 			files = (
 				17DD0E032BA1AB1F00DB340C /* ViewController.swift in Sources */,
 				17DD0DFF2BA1AB1F00DB340C /* AppDelegate.swift in Sources */,
+				17DD0E312BA30F9700DB340C /* UIFont+Extension.swift in Sources */,
 				17DD0E012BA1AB1F00DB340C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
