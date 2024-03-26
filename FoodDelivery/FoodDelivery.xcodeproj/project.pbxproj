@@ -28,6 +28,7 @@
 		17DD0E312BA30F9700DB340C /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DD0E302BA30F9700DB340C /* UIFont+Extension.swift */; };
 		17DD0E332BA45BEA00DB340C /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DD0E322BA45BEA00DB340C /* UIColor+Extension.swift */; };
 		17DD0E352BA45CDF00DB340C /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DD0E342BA45CDF00DB340C /* AppColors.swift */; };
+		17DD0E3A2BB2D72900DB340C /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DD0E392BB2D72900DB340C /* Coordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		17DD0E302BA30F9700DB340C /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
 		17DD0E322BA45BEA00DB340C /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		17DD0E342BA45CDF00DB340C /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		17DD0E392BB2D72900DB340C /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 		17DD0DFD2BA1AB1F00DB340C /* FoodDelivery */ = {
 			isa = PBXGroup;
 			children = (
+				17DD0E362BB2D6C500DB340C /* NavigationLayer */,
 				17DD0E122BA30D3200DB340C /* Resources */,
 				17DD0DFE2BA1AB1F00DB340C /* AppDelegate.swift */,
 				17DD0E002BA1AB1F00DB340C /* SceneDelegate.swift */,
@@ -142,6 +145,30 @@
 				17DD0E322BA45BEA00DB340C /* UIColor+Extension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		17DD0E362BB2D6C500DB340C /* NavigationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				17DD0E382BB2D70200DB340C /* Coordinators */,
+				17DD0E372BB2D6F500DB340C /* Controllers */,
+			);
+			path = NavigationLayer;
+			sourceTree = "<group>";
+		};
+		17DD0E372BB2D6F500DB340C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		17DD0E382BB2D70200DB340C /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				17DD0E392BB2D72900DB340C /* Coordinator.swift */,
+			);
+			path = Coordinators;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +260,7 @@
 				17DD0E352BA45CDF00DB340C /* AppColors.swift in Sources */,
 				17DD0E012BA1AB1F00DB340C /* SceneDelegate.swift in Sources */,
 				17DD0E332BA45BEA00DB340C /* UIColor+Extension.swift in Sources */,
+				17DD0E3A2BB2D72900DB340C /* Coordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
